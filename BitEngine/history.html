@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>History</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style5.css">
+</head>
+<body>
+    <header class="colored-section" id="title">
+
+        <div class="container-fluid">
+    
+          <!-- Nav Bar -->
+    
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <img src="redlogo.jpg" id="redlogo" alt="logo">
+    
+            <a class="navbar-brand" href="">CAEES</a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="homepage.html" target="_blank">Entry/Exit</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="history.html">History</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="credits.html" target="_blank">Credits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" target="_self">Logout</a>
+                  </li>
+              </ul>
+    
+            </div>
+          </nav>
+
+    
+        </div>
+        
+    </header>
+    <div class="background">
+        <div class="container" style="max-width: none;">
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <form class="form-inline">
+                          <div class="form-group">
+                            <input type="text" class="form-control mr-2" placeholder="Search">
+                            <button type="submit" class="btn btn-primary">Filter</button>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col-md-6 text-right">
+                        <button type="button" class="btn btn-success">Add</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th>S.No.</th>
+                            <th>Name/Roll No.</th>
+                            <th>Room No./Hall</th>
+                            <th>Place of Visit</th>
+                            <th>Phone No.</th>
+                            <th>Out Time/Gate</th>
+                            <th>In Time/Gate</th>
+                            <th>Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              <div>John Doe</div>
+                              <div>210297</div>
+                            </td>
+                            <td>B-312, Hall 2</td>
+                            <td>Lucknow</td>
+                            <td>1234567890</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>
+                              <div>Jane Doe</div>
+                              <div>210069</div>
+                            </td>
+                            <td>E-350 Hall 3</td>
+                            <td>Mars</td>
+                            <td>0987654321</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              <div>John Doe</div>
+                              <div>210297</div>
+                            </td>
+                            <td>B-312, Hall 2</td>
+                            <td>Lucknow</td>
+                            <td>1234567890</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr><tr>
+                            <td>1</td>
+                            <td>
+                              <div>John Doe</div>
+                              <div>210297</div>
+                            </td>
+                            <td>B-312, Hall 2</td>
+                            <td>Lucknow</td>
+                            <td>1234567890</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr><tr>
+                            <td>1</td>
+                            <td>
+                              <div>John Doe</div>
+                              <div>210297</div>
+                            </td>
+                            <td>B-312, Hall 2</td>
+                            <td>Lucknow</td>
+                            <td>1234567890</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr><tr>
+                            <td>1</td>
+                            <td>
+                              <div>John Doe</div>
+                              <div>210297</div>
+                            </td>
+                            <td>B-312, Hall 2</td>
+                            <td>Lucknow</td>
+                            <td>1234567890</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr><tr>
+                            <td>1</td>
+                            <td>
+                              <div>John Doe</div>
+                              <div>210297</div>
+                            </td>
+                            <td>B-312, Hall 2</td>
+                            <td>Lucknow</td>
+                            <td>1234567890</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr><tr>
+                            <td>1</td>
+                            <td>
+                              <div>John Doe</div>
+                              <div>210297</div>
+                            </td>
+                            <td>B-312, Hall 2</td>
+                            <td>Lucknow</td>
+                            <td>1234567890</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr><tr>
+                            <td>1</td>
+                            <td>
+                              <div>John Doe</div>
+                              <div>210297</div>
+                            </td>
+                            <td>B-312, Hall 2</td>
+                            <td>Lucknow</td>
+                            <td>1234567890</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr><tr>
+                            <td>1</td>
+                            <td>
+                              <div>John Doe</div>
+                              <div>210297</div>
+                            </td>
+                            <td>B-312, Hall 2</td>
+                            <td>Lucknow</td>
+                            <td>1234567890</td>
+                            <td>
+                              <div>13:40</div>
+                              <div>Gate 2</div>
+                            </td>
+                            <td>
+                              <div>15:03</div>
+                              <div>Gate 3</div>
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                              <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      
+      <!-- jQuery and Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <!-- Custom JS -->
+      <script>
+        // Add barcode scanner functionality here
+      </script>
+      
+    </div>
+
+  
+</body>
+</html>
