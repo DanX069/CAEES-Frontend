@@ -32,6 +32,11 @@
     margin-top: 25px;
     text-align: center;
   }
+  .links{
+    font-size: 1.15rem;
+    color: #828080;
+    margin-top: 0;
+  }
   .icon2 {
     padding: 4px;
     color: #005985;
@@ -138,4 +143,14 @@
     font-weight: normal;
     text-decoration: none;
     margin-top: 0;
+  }
+  .pipe{
+    margin-top: 1.35rem;
+    text-align: justify;
+  }
+  .help{
+    padding-right: 6rem;
+  }
+  .iitk{
+    padding-left: 5rem;
   }

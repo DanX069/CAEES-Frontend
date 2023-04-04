@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAEES: Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <script src="https://kit.fontawesome.com/b35d85bcda.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,9 +16,9 @@
         <div class="login">
           <div class="login-title">
             <i class="fas fa-user fa-2xl icon2"></i>
-          <h2> Admin Login </h2>
+          <h2> Guard Login </h2>
         </div>
-          <p class="notice">Please login to access the system</p>
+          <p class="notice">Please login to access the system as Guard</p>
           <form class="form-login">
             <label for="username">Username</label>
             <div class="input-username">
@@ -29,7 +32,19 @@
             </div>
             <button type="submit"><i class="fas fa-door-open"></i> Sign in</button>
           </form>
-          <h2><a href="https://www.iitk.ac.in/" target="_blank">IIT Kanpur</a> <a href="#">Help?</a></h2>
+
+          <h2><a href="/BitEngine/admin.html" class="links">Admin Login</a></h2>
+          <div class="row" >
+            <div class="col-1"></div>
+            <div class="col-5">
+              <h1><a href="https://www.iitk.ac.in/" target="_blank" class="links iitk" style="margin-top: 0px;">IIT Kanpur</a></h1>
+            </div>
+              <h2 class="links pipe" style="margin-top: 0px;">|</h2>
+            <div class="col-5" >
+              <h1><a href="#" class="links help" style="margin-top: 0px;">Help?</a></h1>
+            </div>
+          </div>
+          
           
         </div>
         <div class="background">
